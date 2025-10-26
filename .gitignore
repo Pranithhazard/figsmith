@@ -98,9 +98,11 @@ dmypy.json
 .DS_Store
 
 # Project-specific
+# Binary assets (except banner)
 *.png
 *.pdf
 *.svg
+!banner.png
 !docs/images/*.png
 !docs/images/*.svg
 data/
