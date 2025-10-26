@@ -124,5 +124,13 @@ claude/
 
 # Ignore docs and miscellaneous markdown, keep only root README.md
 docs/
+# Allow example data files + docs we ship
+docs/
+!docs/figsmith_setup.md
 **/*.md
 !README.md
+# keep example data (.dat)
+example_data/*.dat
+!example_data/*.dat
+examples/**/*.dat
+!examples/**/*.dat
