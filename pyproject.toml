@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Aditya Sai Pranith Ayapilla", email = "pranith.aditya@gmail.com"}
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Aditya Sai Pranith Ayapilla", email = "pranith.aditya@gmail.com"}
 ]
 keywords = ["matplotlib", "visualization", "jupyter", "interactive", "plotting", "CFD", "fluid-dynamics"]
 classifiers = [
@@ -55,10 +55,10 @@ io = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/pranithhazard/figsmith"
+Homepage = "https://github.com/Pranithhazard/figsmith"
 Documentation = "https://figsmith.readthedocs.io"
-Repository = "https://github.com/pranithhazard/figsmith"
-"Bug Tracker" = "https://github.com/pranithhazard/figsmith/issues"
+Repository = "https://github.com/Pranithhazard/figsmith"
+"Bug Tracker" = "https://github.com/Pranithhazard/figsmith/issues"
 
 [tool.setuptools]
 include-package-data = true

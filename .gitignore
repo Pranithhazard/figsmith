@@ -117,6 +117,10 @@ temp/
 figflow_panel/
 backups/
 figsmith_env/
+.claude/
+CLAUDE.md
+CLAUDE*.md
+claude/
 
 # Ignore docs and miscellaneous markdown, keep only root README.md
 docs/
