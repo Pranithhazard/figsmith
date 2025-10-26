@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import figflow.core.interactive_plotter\")",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(awk:*)",
+      "Bash(python:*)",
+      "Bash(tree:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
