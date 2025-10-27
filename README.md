@@ -8,7 +8,7 @@ Tired of presenting slides with tiny ticks, cramped labels, or mismatched fonts�
 
 Figsmith is a small, notebook‑native widget that sits on top of Matplotlib and lets you tune figure aesthetics interactively: figure size and DPI, axes labels, tick sizes, legends, colors, line widths, fonts, colormaps, and more—without writing another line of plotting boilerplate. It’s built with ipywidgets, so it runs right where you work: Jupyter.
 
-Who is it for? Researchers, engineers, and students in scientific computing (e.g., fluid dynamics) who want publishable plots, clean lecture or report figures, or quick sanity checks, all inside a notebook. You already have the data; Figsmith helps you style the figure.
+Who is it for? Researchers, engineers, and students in scientific computing (e.g., fluid dynamics) who want publishable plots, clean lecture or report figures, or quick sanity checks, all inside a notebook. You already have the data; Figsmith helps you style the figure. Unlike general dashboard tools (Plotly, Bokeh, ipywidgets apps) that emphasize building GUIs and sliders for exploring model sensitivities, Figsmith focuses narrowly on interactive figure aesthetics—labels, ticks, colormaps, levels, legends, vector/overlay options—so you can get a plot into publication/teaching shape fast, right in a notebook (and export when you need finer layout work).
 
 What it is (today):
 - A thin, Jupyter‑first wrapper around Matplotlib with an interactive UI
@@ -93,4 +93,6 @@ Open `examples/unified_plotter_demo.ipynb` in Jupyter and run the cells. It show
    `%pip install -e /abs/path/to/figsmith`  
    then restart the kernel.
 
-
+## Related Tool: Pylustrator
+If you need pixel‑precise layout composition and code round‑tripping for Matplotlib figures, see Pylustrator (docs: https://pylustrator.readthedocs.io, GitHub: https://github.com/rgerum/pylustrator).
+Recommended workflow: use Figsmith in Jupyter to go from data to well‑styled plots (levels, colormaps, vector overlays), then refine multi‑panel layout, alignment, and composition in Pylustrator for publication‑ready figures.
